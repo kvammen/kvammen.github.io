@@ -2,7 +2,7 @@ body {
   margin: 4.4rem;
   margin-top: 2rem;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(243, 239, 232);
+  background-color: white;
 }
 
 .menu {
@@ -13,6 +13,10 @@ body {
   list-style: none;
   padding: 0;
   align-items: center;
+}
+
+.nav {
+  color: black;
 }
 
 .nav-box {
@@ -68,39 +72,51 @@ h1 {
 }
 
 .project1 {
-  background-image: url(img/Kvadrat.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-row: 1 / 7;
+  grid-row: 1 / 8;
   grid-column: 1 / 5;
   position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .project2 {
-  background-image: url(img/rektangel2.jpg);
+  background-image: url(img/Vaccina.jpg);
   background-position: center;
   background-size: cover;
-  grid-row: 1 / 9;
+  grid-row: 1 / 10;
   grid-column: 5 / 9;
   position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project3 {
   background-image: url(img/Kvadrat.jpg);
   background-position: center;
   background-size: cover;
-  grid-row: 7 / 16;
+  grid-row: 8 / 16;
   grid-column: 1 / 5;
   position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project4 {
   background-image: url(img/rektangel2.jpg);
   background-position: center;
   background-size: cover;
-  grid-row: 9 / 16;
+  grid-row: 10 / 15;
   grid-column: 5 / 9;
   position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project5 {
@@ -110,6 +126,7 @@ h1 {
   grid-row: 16 / 23;
   grid-column: 1 / 9;
   position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
@@ -144,18 +161,101 @@ h2 {
   padding-left: 2rem;
   font-weight: 100;
   font-size: 1rem;
+  color: white;
 }
 
 button {
-  border: solid black 0.1rem;
+  border: solid white 0.1rem;
   padding: 1rem 1.5rem;
   position: absolute;
   bottom: 20px;
   right: 20px;
+  background-color: transparent;
 }
 
 a {
   text-decoration: none;
-  color: black;
-  text-transform: uppercase;
+  color: white;
+}
+
+/* Illustration page */
+
+h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.introduction2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 29rem;
+  margin-bottom: 10rem;
+}
+
+.grid-container2 {
+  display: grid;
+  max-width: stretch;
+  margin: auto;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 40px);
+  grid-auto-rows: 40px;
+  grid-auto-flow: column;
+  grid-gap: 4rem;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.Illustration1 {
+  background-image: url(img/IMG_0093.JPG);
+  background-position: center;
+  background-size: cover;
+  grid-row: 1 / 9;
+  grid-column: 1 / 5;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Illustration2 {
+  background-image: url(img/IMG_0085.JPG);
+  background-position: center;
+  background-size: cover;
+  grid-row: 1 / 11;
+  grid-column: 5 / 9;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Illustration3 {
+  background-image: url(img/IMG_0091.JPG);
+  background-position: center;
+  background-size: cover;
+  grid-row: 9 / 17;
+  grid-column: 1 / 5;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Illustration4 {
+  background-image: url(img/IMG_0020.JPG);
+  background-position: center;
+  background-size: cover;
+  grid-row: 11 / 19;
+  grid-column: 5 / 9;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Illustration5 {
+  background-image: url(img/Kvadrat.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-row: 17 / 29;
+  grid-column: 1 / 5;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

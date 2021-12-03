@@ -43,10 +43,10 @@ body {
 
 .container-flexbox {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-items: center;
   text-align: center;
-  margin-bottom: 10rem;
 }
 
 .introduction {
@@ -69,8 +69,7 @@ h1 {
 
 .scroll {
   display: flex;
-  justify-content: right;
-  margin-bottom: 5rem;
+  justify-content: center;
 }
 
 .grid-container {
@@ -277,7 +276,7 @@ h3 {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 645px) {
   .body {
     margin: 2rem;
     margin-top: 1rem;
@@ -294,5 +293,9 @@ h3 {
   .logo {
     display: inline-block;
     justify-content: right;
+  }
+
+  .grid-container {
+    display: none;
   }
 }

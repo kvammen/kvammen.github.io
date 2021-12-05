@@ -22,44 +22,94 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.typekit.net/qml8xyk.css" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Kvammen - Project Smoove</title>
+    <title>Kvammen</title>
   </head>
+
   <body>
     <nav class="nav-box">
       <ul class="menu">
-        <a class="nav" href="">Projects</a>
+        <a href="#section-1">Projects</a>
         <a class="nav" href="illustration.html">Illustration</a>
         <a class="nav" href="">About</a>
       </ul>
+      <a href=""
+        ><img class="hamburger" src="img/feather_menu.png" alt="menu"
+      /></a>
       <a href="index.html">
         <img class="logo" src="img/KVAMMEN.svg" alt="Logotyp" />
       </a>
     </nav>
 
-    <main class="flexbox">
-      <section class="container1">
-        <div class="container-text">
-          <p class="project">Project</p>
-          <h3 class="smoove">Smoove</h3>
-          <p class="description">
-            Together with other Yrgo students I have designed
-            <br />
-            and developed a landingpage for Geelys new product.
-          </p>
-          <div>
-            <a class="look" href="">Look at presentation</a>
-            <article class="presentation"></article>
-          </div>
+    <main class="grid-container">
+      <section class="project-container">
+        <h3 class="smoove">Smoove</h3>
+        <p class="description">
+          Together with other Yrgo students I have designed and <br />
+          developed a landingpage for Geelys new product.
+        </p>
+      </section>
+
+      <article class="img1"></article>
+
+      <section class="role margin">
+        <p class="project">Role</p>
+        <p class="project-role">Project manager <br />Digital designer</p>
+      </section>
+
+      <section class="tools margin">
+        <p class="project">Tools</p>
+        <div class="icon-box">
+          <img
+            class="figma"
+            src="icons/figma.png"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <img
+            class="illustrator"
+            src="icons/illustrator.png"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+          <img
+            class="after-effects"
+            src="icons/after-effects.png"
+            alt=""
+            width="50px"
+            height="50px"
+          />
+          <img
+            class="photoshop"
+            src="icons/photoshop.png"
+            alt=""
+            width="47px"
+            height="47px"
+          />
         </div>
       </section>
 
-      <section class="container2">
-        <!-- <img class="hero" src="img/Frame 66.png" alt="" /> -->
-        <article class="hero"></article>
-        <!-- <div class="scroll2">
-          <p>Scroll down to see project</p>
-        </div> -->
+      <a class="look" href="Smoove_presentation.pdf">Look at presentation</a>
+
+      <section class="presentation">
+        <a class="img-presentation" href="Smoove_presentation.pdf"></a>
+      </section>
+
+      <section class="brief margin">
+        <p class="project">Brief</p>
+        <p>
+          The product is completely new on the market and Geely wants to give
+          the product a visually locking technical tone as present and future.
+          <br />
+          <br />
+          The landing page should provide knowledge and inspiration and has two
+          purposes: exchange to collect email addresses for further contact and
+          offer a page that aims to provide more images, "eye candy". How do we
+          get the target group to leave their email?
+        </p>
       </section>
     </main>
 
@@ -73,5 +123,8 @@
         <a href="">About</a>
       </ul>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="smooth-scroll.js"></script>
   </body>
 </html>

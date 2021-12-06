@@ -366,6 +366,7 @@ h3 {
   background-image: url(img/Artboard\ 1.png);
   background-size: cover;
   background-position: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .scroll-project {
@@ -423,6 +424,7 @@ h3 {
   background-image: url(img/Frame\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sketch-container {
@@ -455,6 +457,7 @@ h3 {
   background-image: url(img/wireframe_smoove.png);
   background-size: contain;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* smoove presentation page */
@@ -478,6 +481,7 @@ h3 {
   background-size: cover;
   grid-row: 1 / 13;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide2 {
@@ -485,6 +489,7 @@ h3 {
   background-size: cover;
   grid-row: 14 / 24;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide3 {
@@ -492,6 +497,7 @@ h3 {
   background-size: cover;
   grid-row: 25 / 35;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide4 {
@@ -499,6 +505,7 @@ h3 {
   background-size: cover;
   grid-row: 36 / 46;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide5 {
@@ -506,6 +513,7 @@ h3 {
   background-size: cover;
   grid-row: 47 / 57;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide6 {
@@ -513,6 +521,7 @@ h3 {
   background-size: cover;
   grid-row: 58 / 68;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide7 {
@@ -520,6 +529,7 @@ h3 {
   background-size: cover;
   grid-row: 69 / 79;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide8 {
@@ -527,6 +537,7 @@ h3 {
   background-size: cover;
   grid-row: 80 / 90;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide9 {
@@ -534,6 +545,7 @@ h3 {
   background-size: cover;
   grid-row: 91 / 101;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide10 {
@@ -541,6 +553,7 @@ h3 {
   background-size: cover;
   grid-row: 102 / 112;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Project vaccina page  */
@@ -571,6 +584,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img2-vaccina {
@@ -579,6 +593,7 @@ h3 {
   background-image: url(img/Sketches.png);
   background-size: cover;
   background-position: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img4-vaccina {
@@ -587,6 +602,7 @@ h3 {
   background-image: url(img/Wireframe.png);
   background-size: cover;
   background-position: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Vaccina presentation page  */
@@ -598,6 +614,7 @@ h3 {
   background-repeat: no-repeat;
   grid-row: 1 / 13;
   grid-column: 2 / 8;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide2-vaccina {
@@ -607,6 +624,7 @@ h3 {
   background-repeat: no-repeat;
   grid-row: 14 / 24;
   grid-column: 1 / 9;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide3-vaccina {
@@ -617,6 +635,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide4-vaccina {
@@ -627,6 +646,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide5-vaccina {
@@ -637,6 +657,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide6-vaccina {
@@ -647,6 +668,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide7-vaccina {
@@ -657,6 +679,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide8-vaccina {
@@ -667,6 +690,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide9-vaccina {
@@ -677,6 +701,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slide10-vaccina {
@@ -687,6 +712,7 @@ h3 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Animated postcard page  */
@@ -712,8 +738,8 @@ h3 {
 /* Leader page */
 
 .video-leader {
-  grid-row: 3 / 10;
-  grid-column: 5 / 9;
+  grid-row: 2 / 12;
+  grid-column: 4 / 9;
   justify-content: center;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

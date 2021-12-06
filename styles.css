@@ -104,10 +104,7 @@ h1 {
   grid-row: 1 / 8;
   grid-column: 1 / 5;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.project1:hover {
-  zoom: 50%;
+  opacity: 1;
 }
 
 .card {
@@ -122,11 +119,8 @@ h1 {
   grid-row: 1 / 8;
   grid-column: 5 / 9;
   position: relative;
+  opacity: 1;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.project2:hover {
-  zoom: 50%;
 }
 
 .project3 {
@@ -136,6 +130,7 @@ h1 {
   grid-row: 8 / 15;
   grid-column: 1 / 5;
   position: relative;
+  opacity: 1;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project4 {
@@ -145,6 +140,7 @@ h1 {
   grid-row: 8 / 15;
   grid-column: 5 / 9;
   position: relative;
+  opacity: 1;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -155,6 +151,7 @@ h1 {
   grid-row: 15 / 23;
   grid-column: 1 / 5;
   position: relative;
+  opacity: 1;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -162,7 +159,7 @@ h1 {
   background-image: url(img/leader.png);
   background-position: center;
   background-size: cover;
-
+  opacity: 1;
   grid-row: 15 / 23;
   grid-column: 5 / 9;
   position: relative;
@@ -209,6 +206,11 @@ a {
 }
 a:hover {
   color: orange;
+}
+
+.pic:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=10);
 }
 
 /* illustration page */

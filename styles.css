@@ -565,11 +565,12 @@ h3 {
 }
 
 .img1-vaccina {
-  grid-row: 1 / 11;
+  grid-row: 1 / 12;
   grid-column: 4 / 9;
-  background-image: url(img/Vaccina.jpg);
+  background-image: url(img/vaccina-hero.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .img2-vaccina {
@@ -632,6 +633,7 @@ h3 {
   background-image: url(img/Moodboard.png);
   background-size: cover;
   grid-row: 47 / 57;
+  grid-column: 1 / 9;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -924,7 +926,7 @@ h3 {
   .img1-vaccina {
     grid-row: 15 / 24;
     grid-column: 1 / 9;
-    background-image: url(img/Vaccina.jpg);
+    background-image: url(img/vaccina-hero.png);
     background-size: cover;
     background-position: center;
   }
@@ -1123,14 +1125,23 @@ h3 {
   /* waldorf page  */
 
   .img1-waldorf {
-    grid-row: 15/ 22;
+    grid-row: 15/20;
+    grid-column: 1 / 9;
+  }
+  .img2-waldorf {
+    grid-row: 22/ 25;
+    grid-column: 1 / 9;
+  }
+
+  .img4-waldorf {
+    grid-row: 36/ 42;
     grid-column: 1 / 9;
   }
 }
 
 /* Breakpoint mobile */
 
-@media (max-width: 375px) {
+@media (max-width: 595px) {
   /* home page */
 
   body {
@@ -1405,9 +1416,10 @@ h3 {
   .img1-vaccina {
     grid-row: 7 / 12;
     grid-column: 1 / 9;
-    background-image: url(img/Vaccina.jpg);
+    background-image: url(img/vaccina-hero.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   .sketch-container2 {
@@ -1445,6 +1457,9 @@ h3 {
     grid-column: 1 / 9;
   }
 
+  .img2-waldorf {
+    grid-row: 16/ 119;
+  }
   /* leader */
 
   .video-leader {

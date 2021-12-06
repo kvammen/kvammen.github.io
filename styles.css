@@ -164,9 +164,9 @@ h1 {
 }
 
 .project6 {
-  background-image: url(img/novell.jpg);
+  background-image: url(img/leader.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 
   grid-row: 15 / 23;
   grid-column: 5 / 9;
@@ -215,6 +215,8 @@ a {
 a:hover {
   color: orange;
 }
+
+/* illustration page */
 
 h3 {
   font-family: Poppins;
@@ -323,9 +325,6 @@ h3 {
 
 .project-name {
   margin: 0;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 50px;
 }
 
 .look-box {
@@ -496,9 +495,8 @@ h3 {
 /* Project vaccina page  */
 
 .vaccina {
-  padding-right: 10rem;
+  padding-right: 8rem;
 }
-
 .role2 {
   grid-row: 5 / 7;
   grid-column: 1 / 3;
@@ -653,6 +651,35 @@ h3 {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.brief3 {
+  grid-row: 8/ 12;
+  grid-column: 1 / 3;
+  margin: 0;
+}
+
+.role3 {
+  grid-row: 8/ 12;
+  grid-column: 1 / 3;
+  margin: 0;
+}
+/* Leader page */
+
+.video-leader {
+  grid-row: 3 / 10;
+  grid-column: 5 / 9;
+  justify-content: center;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.scroll-project-leader {
+  display: none;
+}
+
+/* Waldorf page */
+
+.color3 {
+  color: rgb(255, 164, 179);
+}
+
 /* Breakpoint ipad  */
 
 @media (max-width: 768px) {
@@ -660,6 +687,8 @@ h3 {
     margin: 2rem;
     margin-top: 1rem;
   }
+
+  /* home */
 
   .container-flexbox {
     display: none;
@@ -724,6 +753,51 @@ h3 {
     position: relative;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  /* illustration page */
+
+  .introduction2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+  }
+
+  .Illustration1 {
+    grid-row: 1 / 8;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Illustration2 {
+    background-image: url(img/IMG_0085.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-row: 8 / 17;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Illustration3 {
+    background-image: url(img/IMG_0091.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-row: 17 / 24;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Illustration4 {
+    background-image: url(img/IMG_0020.JPG);
+    background-position: center;
+    background-size: cover;
+    grid-row: 24 / 31;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   /* animated postcard */
 
   .project-container {
@@ -799,114 +873,130 @@ h3 {
   .scroll-project {
     grid-column: 4 / 9;
   }
-}
 
-/* smoove page */
+  /* smoove page */
 
-.role {
-  grid-row: 4 / 7;
-  grid-column: 1 / 4;
-  margin: 0;
-}
+  .role {
+    grid-row: 4 / 7;
+    grid-column: 1 / 4;
+    margin: 0;
+  }
 
-.tools {
-  grid-row: 4 / 6;
-  grid-column: 4 / 7;
-  margin: 0;
-}
+  .tools {
+    grid-row: 4 / 6;
+    grid-column: 4 / 7;
+    margin: 0;
+  }
 
-.brief {
-  grid-row: 7/ 12;
-  grid-column: 1 / 9;
-  margin: 0;
-}
+  .brief {
+    grid-row: 7/ 12;
+    grid-column: 1 / 9;
+    margin: 0;
+  }
 
-.img1 {
-  grid-row: 14 / 23;
-  grid-column: 1 / 9;
-  background-image: url(img/Artboard\ 1.png);
-  background-size: cover;
-  background-position: center;
-}
+  .img1 {
+    grid-row: 14 / 23;
+    grid-column: 1 / 9;
+    background-image: url(img/Artboard\ 1.png);
+    background-size: cover;
+    background-position: center;
+  }
 
-.img2 {
-  grid-row: 29 / 35;
-  grid-column: 1 / 9;
-  background-image: url(img/Frame\ 1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .img2 {
+    grid-row: 29 / 35;
+    grid-column: 1 / 9;
+    background-image: url(img/Frame\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.img4 {
-  grid-row: 42 / 49;
-  grid-column: 1 /9;
-  background-image: url(img/wireframe_smoove.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .img4 {
+    grid-row: 42 / 49;
+    grid-column: 1 /9;
+    background-image: url(img/wireframe_smoove.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-/* presentation pages */
+  /* presentation pages */
 
-.slide1 {
-  grid-row: 1 / 7;
-  grid-column: 1 / 9;
-}
+  .slide1 {
+    grid-row: 1 / 7;
+    grid-column: 1 / 9;
+  }
 
-.slide2 {
-  grid-row: 8 / 14;
-  grid-column: 1 / 9;
-}
+  .slide2 {
+    grid-row: 8 / 14;
+    grid-column: 1 / 9;
+  }
 
-.slide3 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  grid-row: 15 / 21;
-  grid-column: 1 / 9;
-}
+  .slide3 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 15 / 21;
+    grid-column: 1 / 9;
+  }
 
-.slide4 {
-  grid-row: 21 / 27;
-  grid-column: 1 / 9;
-}
+  .slide4 {
+    grid-row: 21 / 27;
+    grid-column: 1 / 9;
+  }
 
-.slide5 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  grid-row: 28 / 34;
-  grid-column: 1 / 9;
-}
+  .slide5 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 28 / 34;
+    grid-column: 1 / 9;
+  }
 
-.slide6 {
-  grid-row: 34 / 40;
-  grid-column: 1 / 9;
-}
+  .slide6 {
+    grid-row: 34 / 40;
+    grid-column: 1 / 9;
+  }
 
-.slide7 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  grid-row: 41 / 47;
-  grid-column: 1 / 9;
-}
+  .slide7 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 41 / 47;
+    grid-column: 1 / 9;
+  }
 
-.slide8 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  grid-row: 47 / 53;
-  grid-column: 1 / 9;
-}
+  .slide8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 47 / 53;
+    grid-column: 1 / 9;
+  }
 
-.slide9 {
-  grid-row: 53 / 60;
-  grid-column: 1 / 9;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .slide9 {
+    grid-row: 53 / 60;
+    grid-column: 1 / 9;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-.slide10 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  grid-row: 59 / 65;
-  grid-column: 1 / 9;
+  .slide10 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 59 / 65;
+    grid-column: 1 / 9;
+  }
+
+  /* leader */
+  .video-leader {
+    grid-row: 14 / 20;
+    grid-column: 1 / 9;
+    justify-content: center;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1rem;
+  }
+
+  .scroll-project-leader {
+    display: grid;
+    grid-row: 12 / 12;
+    grid-column: 4 / 9;
+    text-align: right;
+  }
 }
 
 /* Breakpoint mobile */

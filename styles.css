@@ -8,7 +8,6 @@ body {
 /* Navigeringsmeny mobil */
 .hamburger {
   height: 3rem;
-  padding: 0.5rem;
   display: none;
 }
 
@@ -48,7 +47,7 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   height: 1080px;
   max-width: 100vw;
   max-height: 100vh;
@@ -58,7 +57,7 @@ body {
 .introduction {
   align-self: center;
   justify-content: flex-start;
-  padding-right: 10rem;
+  text-align: center;
 }
 
 h1 {
@@ -79,12 +78,12 @@ h1 {
   padding-top: 20rem;
   background-position: center;
   background-size: cover;
-  width: 700px;
+  width: 500px;
   height: 400px;
 }
 
 .scroll {
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .grid-container {
@@ -145,7 +144,7 @@ h1 {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project4 {
-  background-image: url(img/rektangel2.jpg);
+  background-image: url(img/wALDORF.png);
   background-position: center;
   background-size: cover;
   grid-row: 8 / 15;
@@ -153,6 +152,28 @@ h1 {
   position: relative;
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.project5 {
+  background-image: url(img/bmockup\ baksida\ .jpg);
+  background-position: center;
+  background-size: contain;
+  grid-row: 15 / 23;
+  grid-column: 1 / 5;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project6 {
+  background-image: url(img/novell.jpg);
+  background-position: center;
+  background-size: contain;
+
+  grid-row: 15 / 23;
+  grid-column: 5 / 9;
+  position: relative;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -162,7 +183,7 @@ footer {
   margin-top: 4rem;
 }
 .footer-menu {
-  font-family: "Cabin", sans-serif;
+  font-family: "poppins";
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -431,7 +452,7 @@ h3 {
 }
 
 .slide5 {
-  background-image: url(img/Moodboard.png);
+  background-image: url(img/Moodboard_smoove.png);
   background-size: cover;
   grid-row: 47 / 57;
   grid-column: 1 / 9;
@@ -634,22 +655,258 @@ h3 {
 
 /* Breakpoint ipad  */
 
-@media (max-width: 645px) {
+@media (max-width: 768px) {
   .body {
     margin: 2rem;
     margin-top: 1rem;
   }
-  .hamburger {
-    display: inline-block;
-  }
-  .menu {
+
+  .container-flexbox {
     display: none;
   }
-  .logo {
-    display: inline-block;
-    justify-content: right;
+
+  .container-flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 1080px;
+    max-width: 100vw;
+    max-height: 100vh;
+    align-self: center;
   }
+
+  .introduction {
+    align-self: center;
+    justify-content: flex-start;
+  }
+
   .grid-container {
-    display: none;
+    padding-top: 0;
+  }
+
+  .project1 {
+    grid-row: 1 / 8;
+    grid-column: 1 / 9;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project2 {
+    background-repeat: no-repeat;
+    grid-row: 8 / 15;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project3 {
+    grid-row: 15 / 22;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .project4 {
+    grid-row: 22 / 29;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project5 {
+    grid-row: 29 / 36;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .project6 {
+    grid-row: 36 / 43;
+    grid-column: 1 / 9;
+    position: relative;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  /* animated postcard */
+
+  .project-container {
+    grid-row: 1 / 3;
+    grid-column: 1 /9;
+  }
+
+  .video-animated {
+    grid-row: 7 / 17;
+    grid-column: 1 / 9;
+    justify-content: center;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* vaccina page */
+
+  .vaccina {
+    padding-right: 0;
+  }
+
+  .role2 {
+    grid-row: 4 / 7;
+    grid-column: 1 / 3;
+    margin: 0;
+  }
+
+  .tools2 {
+    grid-row: 4 / 7;
+    grid-column: 3 / 4;
+    margin: 0;
+  }
+
+  .brief2 {
+    grid-row: 7/ 12;
+    grid-column: 1 / 9;
+    margin: 0;
+  }
+
+  .img1-vaccina {
+    grid-row: 14 / 23;
+    grid-column: 1 / 9;
+    background-image: url(img/Vaccina.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .sketch-container {
+    grid-row: 25 / 27;
+    grid-column: 1 / 9;
+  }
+
+  .img2-vaccina {
+    grid-row: 29 / 35;
+    grid-column: 1 / 9;
+    background-image: url(img/Sketches.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wireframe-container {
+    grid-row: 37 /45;
+    grid-column: 1 / 9;
+  }
+
+  .img4-vaccina {
+    grid-row: 42 / 48;
+    grid-column: 1 / 9;
+    background-image: url(img/Wireframe.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .scroll-project {
+    grid-column: 4 / 9;
   }
 }
+
+/* smoove page */
+
+.role {
+  grid-row: 4 / 7;
+  grid-column: 1 / 4;
+  margin: 0;
+}
+
+.tools {
+  grid-row: 4 / 6;
+  grid-column: 4 / 7;
+  margin: 0;
+}
+
+.brief {
+  grid-row: 7/ 12;
+  grid-column: 1 / 9;
+  margin: 0;
+}
+
+.img1 {
+  grid-row: 14 / 23;
+  grid-column: 1 / 9;
+  background-image: url(img/Artboard\ 1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.img2 {
+  grid-row: 29 / 35;
+  grid-column: 1 / 9;
+  background-image: url(img/Frame\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  grid-row: 42 / 49;
+  grid-column: 1 /9;
+  background-image: url(img/wireframe_smoove.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* presentation pages */
+
+.slide1 {
+  grid-row: 1 / 7;
+  grid-column: 1 / 9;
+}
+
+.slide2 {
+  grid-row: 8 / 14;
+  grid-column: 1 / 9;
+}
+
+.slide3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-row: 15 / 21;
+  grid-column: 1 / 9;
+}
+
+.slide4 {
+  grid-row: 21 / 27;
+  grid-column: 1 / 9;
+}
+
+.slide5 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-row: 28 / 34;
+  grid-column: 1 / 9;
+}
+
+.slide6 {
+  grid-row: 34 / 40;
+  grid-column: 1 / 9;
+}
+
+.slide7 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-row: 41 / 47;
+  grid-column: 1 / 9;
+}
+
+.slide8 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-row: 47 / 53;
+  grid-column: 1 / 9;
+}
+
+.slide9 {
+  grid-row: 53 / 60;
+  grid-column: 1 / 9;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slide10 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-row: 59 / 65;
+  grid-column: 1 / 9;
+}
+
+/* Breakpoint mobile */

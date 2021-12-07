@@ -775,15 +775,46 @@ h3 {
   background-position: center;
 }
 
-/* Breakpoint 1440  */
+/* Breakpoint 1448  */
 
-@media (max-width: 1440px) {
+@media (max-width: 1448px) {
+  /* illustration page  */
+
+  .introduction2 {
+    margin-right: 30rem;
+  }
+
   .description {
     padding-right: 2rem;
   }
 
-  .tools .tools-long .tools2 .tools4 {
-    position: fixed;
+  .tools {
+    grid-row: 6/ 8;
+    padding-left: 3rem;
+  }
+
+  .tools2 {
+    grid-row: 6/ 8;
+    padding-left: 3rem;
+  }
+
+  .tools-long {
+    padding-left: 3rem;
+  }
+  .tools4 {
+    padding-left: 3rem;
+  }
+
+  .role {
+    grid-row: 6/ 8;
+  }
+
+  .role2 {
+    grid-row: 6/ 8;
+  }
+
+  .role3 {
+    grid-row: 6/ 8;
   }
 }
 
@@ -929,12 +960,14 @@ h3 {
     grid-row: 4 / 7;
     grid-column: 1 / 3;
     margin: 0;
+    padding: 0;
   }
 
   .tools2 {
     grid-row: 4 / 7;
     grid-column: 3 / 4;
     margin: 0;
+    padding: 0;
   }
 
   .brief2 {
@@ -994,36 +1027,42 @@ h3 {
     grid-row: 4 / 7;
     grid-column: 1 / 4;
     margin: 0;
+    padding: 0;
   }
 
   .role4 {
     grid-row: 4 / 7;
     grid-column: 1 / 4;
     margin: 0;
+    padding: 0;
   }
 
   .role-long {
     grid-row: 4 / 7;
     grid-column: 1 / 4;
     margin: 0;
+    padding: 0;
   }
 
   .tools {
     grid-row: 4 / 6;
     grid-column: 4 / 7;
     margin: 0;
+    padding: 0;
   }
 
   .tools4 {
     grid-row: 4 / 6;
     grid-column: 4 / 7;
     margin: 0;
+    padding: 0;
   }
 
   .tools-long {
     grid-row: 4 / 6;
     grid-column: 4 / 7;
     margin: 0;
+    padding: 0;
   }
 
   .brief {
@@ -1581,5 +1620,25 @@ h3 {
     grid-column: 1 / 9;
     grid-row: 15 / 19;
     zoom: 170%;
+  }
+
+  /* vaccina page  */
+
+  .sketch-container2 {
+    grid-row: 17 /20;
+  }
+  .img1-vaccina {
+    grid-row: 7 / 12;
+    grid-column: 1 / 9;
+  }
+
+  .img2-vaccina {
+    grid-row: 20 / 24;
+    grid-column: 1 / 9;
+  }
+
+  .img4-vaccina {
+    grid-row: 28/ 31;
+    grid-column: 1 / 9;
   }
 }
